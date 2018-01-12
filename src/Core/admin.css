@@ -1,0 +1,4 @@
+/* Hide WP logo in top menu */
+.ab-top-menu #wp-admin-bar-wp-logo {
+  display: none;
+}

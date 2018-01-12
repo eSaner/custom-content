@@ -1,0 +1,19 @@
+{
+    "name": "eSaner/esaner-custom-content",
+    "description": "Custom post types, taxonomies, widgets, and core modifications for WordPress.",
+    "type": "project",
+    "require": {
+        "jjgrainger/posttypes": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Eric Saner",
+            "email": "eric@esaner.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "eSaner\\Content\\": "src/"
+        }
+    }
+}
